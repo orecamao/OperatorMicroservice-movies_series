@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @Slf4j
 @RestController
-@RequestMapping("/media")
+@RequestMapping("/media-elements")
 public class MediaController {
 
     @Autowired
