@@ -37,6 +37,11 @@ public class MediaController {
         return this.mediaService.updateMediaElementById(request, id);
     }
 
+    @PatchMapping(path = "/{id}")
+    public MediaModel patchMediaElementById(@RequestBody MediaModel request, @PathVariable("id") Long id) {
+        return this.mediaService.updateMediaElementById(request, id);
+    }
+
     @DeleteMapping(path = "/{id}")
     public String deleteMediaElementById(@PathVariable("id") Long id) {
         boolean ok = this.mediaService.deleteMediaElementById(id);

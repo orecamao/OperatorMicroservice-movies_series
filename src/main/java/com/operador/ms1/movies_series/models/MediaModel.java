@@ -42,10 +42,10 @@ public class MediaModel {
     private String trailerID;
 
     @Column(name = "available")
-    private boolean available;
+    private Boolean available;
 
     @Column(name = "price")
-    private float price;
+    private Float price;
 
     @Column(name = "state")
     private String state;
