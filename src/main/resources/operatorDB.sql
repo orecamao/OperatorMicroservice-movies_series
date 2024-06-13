@@ -39,7 +39,7 @@ CREATE TABLE `media_data` (
   `trailerid` varchar(255) DEFAULT NULL,
   `type` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -48,7 +48,7 @@ CREATE TABLE `media_data` (
 
 LOCK TABLES `media_data` WRITE;
 /*!40000 ALTER TABLE `media_data` DISABLE KEYS */;
-INSERT INTO `media_data` VALUES (1,_binary '\0','A team of explorers travel through a wormhole in space in an attempt to ensure humanity\'s survival.','Christopher Nolan','169 min','/Movies/4.png',0,'8.6/10',2014,NULL,'Interstellar','KPLWWIOCOOQ','movie'),(3,_binary '','Eight years after the Joker\'s reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City.','Christopher Nolan','164 min','/Movies/4.png',5,'8.9/10',2012,'rent','The Dark Knight Rises','KPLWWIOCOOQ','movie'),(4,_binary '\0','Eight years after the Joker\'s reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City.','Christopher Nolan','169 min','/Movies/4.png',5,'8.9/10',2024,'rent','The Dark Knight Rises','KPLWWIOCOOQ','movie');
+INSERT INTO `media_data` VALUES (1,_binary '\0','A team of explorers travel through a wormhole in space in an attempt to ensure humanity\'s survival.','Christopher Nolan','169 min','/Movies/4.png',0,'8.6/10',2014,NULL,'Interstellar','KPLWWIOCOOQ','movie'),(3,_binary '','Eight years after the Joker\'s reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City.','Christopher Nolan','164 min','/Movies/4.png',5,'8.9/10',2012,'rent','The Dark Knight Rises','KPLWWIOCOOQ','movie'),(4,_binary '\0','The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.','Jon Favreau','169 min','/Movies/4.png',10,'8.6/10',2014,'rent','The Mandalorian','KPLWWIOCOOQ','serie'),(5,_binary '\0','A man with short-term memory loss attempts to track down his wife\'s murderer.','Christopher Nolan','113 min','/Movies/4.png',13,'8.4/10',2000,'buy','Memento','KPLWWIOCOOQ','movie');
 /*!40000 ALTER TABLE `media_data` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -61,4 +61,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-06-13  3:15:41
+-- Dump completed on 2024-06-13 17:00:16
